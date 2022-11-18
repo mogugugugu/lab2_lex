@@ -70,7 +70,7 @@ void showProgramInternalForm() {
 
 
 REAL_NUMBER  [+-]?(0|[1-9][0-9]*)(\.[0-9]+)?
-IDENTIFIER   [a-z][a-z0-9_]*
+IDENTIFIER   [a-z][a-z0-9]*
 STRING       \".*\"
 /*** Rule Section ***/
 %%
